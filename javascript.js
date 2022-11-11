@@ -21,7 +21,7 @@ for (i = 1; i <= 64; i ++){
     let subDiv = document.createElement('div');
     container.appendChild(subDiv);
     subDiv.classList.add('colorThisDiv')
-    // subDiv.style.cssText = 'border: 1px solid black;'
+    subDiv.style.cssText = 'border: 1px solid black; width: auto; height: auto;'
 }
 
 // Grab all divs
